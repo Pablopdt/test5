@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neuronautas - Blog de IA en Español</title>
+    <meta
+      name="description"
+      content="Neuronautas es un blog moderno sobre inteligencia artificial en español, con noticias, guías, herramientas y reflexiones para profesionales y curiosos."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container">
+        <a class="logo" href="#inicio">Neuronautas</a>
+        <nav class="nav" aria-label="Secciones principales">
+          <a href="#articulos">Artículos</a>
+          <a href="#guias">Guías</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#newsletter">Newsletter</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Cambiar tema">
+          <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero container">
+        <div class="hero__content">
+          <p class="hero__tag">Blog de inteligencia artificial en español</p>
+          <h1>Descubre el futuro de la IA con una voz latina</h1>
+          <p>
+            Tendencias, experimentos y reflexiones para que entiendas y domines la
+            inteligencia artificial desde la cultura hispanohablante.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#articulos">Ver últimas publicaciones</a>
+            <a class="btn btn--ghost" href="#newsletter">Suscribirme</a>
+          </div>
+        </div>
+        <div class="hero__aside" aria-hidden="true">
+          <div class="hero__glow"></div>
+          <div class="hero__card">
+            <h3>Novedades destacadas</h3>
+            <ul>
+              <li>
+                <strong>GPT-5</strong> redefine los flujos creativos con agentes
+                especializados.
+              </li>
+              <li>
+                Nuevas normas europeas para regular modelos fundacionales.
+              </li>
+              <li>
+                Los prompts más efectivos para acelerar tu trabajo diario.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="filters" aria-label="Filtros de categorías">
+        <div class="container">
+          <h2>Explora por temática</h2>
+          <p class="filters__status sr-only" aria-live="polite">Mostrando 6 artículos</p>
+          <div class="filters__controls">
+            <button class="filter-button is-active" data-filter="todas">Todo</button>
+            <button class="filter-button" data-filter="tendencias">Tendencias</button>
+            <button class="filter-button" data-filter="guias">Guías</button>
+            <button class="filter-button" data-filter="etica">Ética</button>
+            <button class="filter-button" data-filter="herramientas">Herramientas</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="articulos" class="articles container">
+        <div class="section-header">
+          <h2>Últimos artículos</h2>
+          <p>Resúmenes claros, ejemplos prácticos y entrevistas a voces líderes.</p>
+        </div>
+        <div class="articles__grid">
+          <article class="card" data-category="tendencias">
+            <span class="card__category">Tendencias</span>
+            <h3>De copilotos a co-creadores: así evoluciona la IA generativa</h3>
+            <p>
+              Analizamos cómo los modelos multimodales están transformando el trabajo
+              creativo y qué habilidades debes potenciar en 2024.
+            </p>
+            <a href="#" class="card__link">Leer más</a>
+          </article>
+          <article class="card" data-category="guias">
+            <span class="card__category">Guía práctica</span>
+            <h3>Construye tu asistente IA personal en un fin de semana</h3>
+            <p>
+              Una guía paso a paso con herramientas open source, APIs públicas y buenas
+              prácticas de automatización.
+            </p>
+            <a href="#" class="card__link">Leer más</a>
+          </article>
+          <article class="card" data-category="etica">
+            <span class="card__category">Ética</span>
+            <h3>Cómo diseñar experiencias de IA responsables y centradas en personas</h3>
+            <p>
+              Principios concretos y frameworks accesibles para evaluar sesgos y riesgos
+              en tus productos digitales.
+            </p>
+            <a href="#" class="card__link">Leer más</a>
+          </article>
+          <article class="card" data-category="herramientas">
+            <span class="card__category">Herramientas</span>
+            <h3>Stack esencial de IA para startups latinoamericanas</h3>
+            <p>
+              Seleccionamos las plataformas más eficientes para prototipar, desplegar y
+              medir soluciones basadas en IA.
+            </p>
+            <a href="#" class="card__link">Leer más</a>
+          </article>
+          <article class="card" data-category="guias">
+            <span class="card__category">Guía avanzada</span>
+            <h3>Prompt engineering con sabor latino: ejemplos que sí funcionan</h3>
+            <p>
+              Técnicas de prompting adaptadas al español y a contextos culturales
+              locales para mejorar tus resultados.
+            </p>
+            <a href="#" class="card__link">Leer más</a>
+          </article>
+          <article class="card" data-category="tendencias">
+            <span class="card__category">Análisis</span>
+            <h3>IA en la empresa: métricas para demostrar impacto real</h3>
+            <p>
+              Cómo construir indicadores de negocio que justifiquen inversiones en
+              proyectos de inteligencia artificial.
+            </p>
+            <a href="#" class="card__link">Leer más</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="guias" class="guides">
+        <div class="container">
+          <div class="guides__content">
+            <h2>Guías descargables exclusivas</h2>
+            <p>
+              Profundiza con e-books y talleres en video sobre diseño conversacional,
+              agentes autónomos y adopción responsable en empresas.
+            </p>
+            <ul class="guides__list">
+              <li>
+                <h3>Toolkit de adopción responsable</h3>
+                <p>
+                  Incluye checklists para compliance, matrices de riesgo y plantillas de
+                  comunicación interna.
+                </p>
+              </li>
+              <li>
+                <h3>Curso relámpago de agentes IA</h3>
+                <p>
+                  Aprende a diseñar agentes modulares con workflows orquestados y monitoreo
+                  continuo.
+                </p>
+              </li>
+              <li>
+                <h3>Masterclass de UX conversacional</h3>
+                <p>
+                  Descubre cómo crear experiencias naturales, inclusivas y con personalidad
+                  propia.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <aside class="guides__aside">
+            <div class="guides__highlight">
+              <h3>¿Quieres soporte personalizado?</h3>
+              <p>
+                Agenda una consultoría exprés de 45 minutos para acelerar la implementación
+                de IA en tu proyecto.
+              </p>
+              <a class="btn btn--secondary" href="#">Reservar sesión</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="recursos" class="resources container">
+        <div class="section-header">
+          <h2>Recursos recomendados</h2>
+          <p>
+            Herramientas, newsletters y comunidades para mantenerte a la vanguardia sin
+            saturarte.
+          </p>
+        </div>
+        <div class="resources__grid">
+          <article class="resource">
+            <h3>Radar semanal</h3>
+            <p>
+              Un resumen curado con los lanzamientos más relevantes y oportunidades de
+              networking en español.
+            </p>
+            <a href="#">Suscribirme</a>
+          </article>
+          <article class="resource">
+            <h3>Base de prompts</h3>
+            <p>
+              Plantillas listas para usar en marketing, producto y análisis de datos,
+              optimizadas para grandes modelos de lenguaje.
+            </p>
+            <a href="#">Explorar</a>
+          </article>
+          <article class="resource">
+            <h3>Directorio de comunidades</h3>
+            <p>
+              Encuentra meetups, servidores de Discord y espacios de mentoring en toda
+              Latinoamérica.
+            </p>
+            <a href="#">Unirme</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="newsletter" class="newsletter">
+        <div class="container">
+          <div class="newsletter__content">
+            <h2>Únete a la comunidad</h2>
+            <p>
+              Recibe cada viernes un digest con ideas accionables, ejemplos reales y
+              oportunidades de colaboración.
+            </p>
+            <form class="newsletter__form" novalidate>
+              <label class="sr-only" for="email">Correo electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="tu@correo.com"
+                required
+              />
+              <button type="submit" class="btn btn--primary">Recibir newsletter</button>
+              <p class="newsletter__feedback" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+          <ul class="newsletter__benefits">
+            <li>
+              <strong>Microlecciones</strong> de prompting y automatización.
+            </li>
+            <li>
+              <strong>Casos de éxito</strong> en startups y empresas tradicionales.
+            </li>
+            <li>
+              <strong>Convocatorias</strong> a eventos y becas exclusivas.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <a class="logo" href="#inicio">Neuronautas</a>
+          <p>
+            Contamos historias sobre inteligencia artificial con perspectiva latina. Hecho
+            con curiosidad desde Ciudad de México.
+          </p>
+        </div>
+        <div class="footer__links">
+          <a href="#">Acerca de</a>
+          <a href="#">Contacto</a>
+          <a href="#">Patrocinar</a>
+        </div>
+        <div class="footer__meta">
+          <p>&copy; <span id="year"></span> Neuronautas. Todos los derechos reservados.</p>
+          <a href="#">Política de privacidad</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
